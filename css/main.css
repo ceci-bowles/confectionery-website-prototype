@@ -110,6 +110,10 @@ nav .nav {
   width: 30%;
 }
 
+.choc-box-nav li {
+  width: 20%;
+}
+
 .choc-box-prices li {
   padding: .25em 0;
 }
@@ -374,8 +378,9 @@ h5 {
 .smile {
   text-align: left;
 }
+
 .whatup {
-    color: #6a3f24;
+  color: #6a3f24;
 }
 
 @media only screen and (min-width: 25em) {
@@ -428,4 +433,36 @@ h5 {
   .float-right {
     padding: 1.5em 1em;
   }
+
+  div .choco-option-img {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  div .choco-option-img {
+    float: left;
+    display: inline-block;
+    width: 25%;
+
+  }
+
+  .float-right {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    padding: .25em;
+  }
+
+  .blah-de-blah {
+    display: none;
+  }
+
+  .size-60-span {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 1em;
+  }
+
 }
