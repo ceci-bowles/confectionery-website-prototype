@@ -103,6 +103,8 @@ nav .nav {
   text-decoration: none;
   color: #fff;
   font-size: 1.2rem;
+  display: block;
+  width: 100%;
 }
 
 .choc-2ul li {
@@ -118,11 +120,19 @@ nav .nav {
   padding: .25em 0;
 }
 
-.choc-2ul li:hover {
+.choc-2ul a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  width: 100%;
+  display: block;
+}
+
+.choc-2ul a:hover {
   background-color: #a8706c;
 }
 
-.nav li:hover {
+.nav a:hover {
   background-color: #a8706c;
 }
 
@@ -224,16 +234,11 @@ nav .choc-2ul {
   padding: 0;
 }
 
-.choc-2ul a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.2rem;
-}
-
 h3 {
   font-family: Fondamento, cursive;
   color: #6a3f24;
   text-align: center;
+  text-decoration: underline;
 }
 
 .choco-img {
@@ -324,7 +329,7 @@ h4, h5 {
 .choc-para {
   background-color: #dcbfa5;
   text-align: center;
-  padding: 0 .5em .5em;
+  padding: .5em;
   color: #6a3f24;
 }
 
@@ -343,7 +348,7 @@ h4, h5 {
 
 .boxes-holiday-options {
   color: #6a3f24;
-  padding-left: .5em;
+  padding-bottom: .5em;
 }
 
 h5 {
@@ -381,6 +386,16 @@ h5 {
 
 .whatup {
   color: #6a3f24;
+}
+
+.choco-about {
+  width: 100%;
+  display: block;
+}
+
+.bored {
+  padding: 1em 0;
+  display: block;
 }
 
 @media only screen and (min-width: 25em) {
@@ -441,6 +456,21 @@ h5 {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .logo .swirl {
+    border-top: none;
+  }
+
+  .logo .swirl, .swirl-copy {
+    width: 50%;
+    display: block;
+    transform: translateX(50%);
+  }
+
   div .choco-option-img {
     float: left;
     display: inline-block;
@@ -463,6 +493,12 @@ h5 {
     display: block;
     overflow: hidden;
     padding-bottom: 1em;
+  }
+}
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
   }
 
 }
