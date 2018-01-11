@@ -87,7 +87,7 @@ nav .nav {
 }
 
 .nav-open, .nav-close {
-  display: block;
+  display: inline-block;
   width: 100%;
   padding: 1.5em .5em 0 0;
 }
@@ -146,8 +146,8 @@ nav .nav {
   background-color: #a8706c;
 }
 
-.current {
-  background-color: #a8706c;
+.current a {
+  background-color: #f9b0aa;
 }
 
 .banner {
@@ -406,16 +406,26 @@ h5 {
   margin-bottom: 1em;
 }
 
-.padding {
-  padding-bottom: 2em;
-}
-
 .quote {
   display: block;
   font-family: Fondamento, cursive;
   color: #dcbfa5;
   text-align: center;
   padding-bottom: .25em;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  color: #6a3f24;
+  font-family: Fondamento, cursive;
+  padding: .5em 0 0;
+}
+
+.choc-para3 {
+  text-align: center;
+  padding: .5em;
+  color: #6a3f24;
 }
 
 @media only screen and (min-width: 25em) {
@@ -461,6 +471,10 @@ h5 {
 
   .nav-open, .nav-close {
     padding: 1em .5em 0 0;
+  }
+
+  .current {
+    background-color: #a8706c;
   }
 
 }
@@ -577,6 +591,13 @@ h5 {
 
   html {
     font-size: 130%;
+  }
+  main {
+    margin: 0 10em;
+  }
+
+  .choc-para3 {
+  padding: 0 1em;
   }
 
 }
