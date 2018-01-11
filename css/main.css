@@ -138,16 +138,16 @@ nav .nav {
   display: block;
 }
 
+.current a {
+  background-color: #f9b0aa;
+}
+
 .choc-2ul a:hover {
   background-color: #a8706c;
 }
 
 .nav a:hover {
   background-color: #a8706c;
-}
-
-.current a {
-  background-color: #f9b0aa;
 }
 
 .banner {
@@ -592,12 +592,13 @@ h5 {
   html {
     font-size: 130%;
   }
+
   main {
     margin: 0 10em;
   }
 
   .choc-para3 {
-  padding: 0 1em;
+    padding: 0 1em;
   }
 
 }
