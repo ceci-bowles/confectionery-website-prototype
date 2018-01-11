@@ -534,6 +534,7 @@ main > p:nth-child(2)::first-letter {
   .choc-para3 {
     padding: .5em 1.5em;
   }
+  
 }
 
 @media only screen and (min-width: 60em) {
