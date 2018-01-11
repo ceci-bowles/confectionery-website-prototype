@@ -11,23 +11,23 @@
 <body>
   <header>
     <div class="logo">
-      <img src="images/swirl.png" alt="" class="swirl">
-      <h1>Coco’s Chocolatiers</h1>
-      <img src="images/swirl-copy.png" alt="" class="swirl-copy">
+      <img src="images/logo-small.svg" alt="" class="logo-nav small-screen">
+      <img src="images/logo.svg" alt="" class="logo-nav large-screen">
+
+      <nav class="main-nav">
+        <input type="checkbox" class="nav-check" id="nav-check">
+        <label class="nav-label" for="nav-check">
+          <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
+          <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
+        </label>
+        <ul class="nav">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="chocolates.html">Chocolates</a></li>
+          <li><a href="boxes.html">Boxes</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav class="main-nav">
-      <input type="checkbox" class="nav-check" id="nav-check">
-      <label class="nav-label" for="nav-check">
-        <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
-        <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
-      </label>
-      <ul class="nav">
-        <li class="current"><a href="index.html">Home</a></li>
-        <li><a href="chocolates.html">Chocolates</a></li>
-        <li><a href="boxes.html">Boxes</a></li>
-        <li><a href="about.html">About Us</a></li>
-      </ul>
-    </nav>
   </header>
 
   <main>
@@ -35,10 +35,27 @@
       <img src="images/wonderful-chocolate-wallpaper.jpg" alt="" class="main-page-img">
       <div class="banner-content">
         <h2 class="main-page-title2">Holiday Special Boxes</h2>
+        <div>
+          <a class="btn btn-big" href="boxes.html">See more...</a>
+        </div>
       </div>
     </section>
-    <div class="button">
-      <a class="btn btn-big" href="boxes.html">See more...</a>
+
+    <section class="banner what">
+      <img src="images/choose-choco.jpg" alt="" class="main-page-img">
+      <div class="banner-content no">
+        <a class="btn btn-small" href="chocolates.html">Choose  Chocolates</a>
+      </div>
+    </section>
+
+    <section class="banner what">
+      <img src="images/box-choco.jpg" alt="" class="main-page-img">
+      <div class="banner-content no">
+        <a class="btn btn-small" href="boxes.html">Choose from Boxes</a>
+      </div>
+    </section>
+    <div class="blah-de-blah">
+      <img src="images/swirl.png" alt="" class="blah">
     </div>
   </main>
 

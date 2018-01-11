@@ -11,26 +11,27 @@
 <body>
   <header>
     <div class="logo">
-      <img src="images/swirl.png" alt="" class="swirl">
-      <h1>Coco’s Chocolatiers</h1>
-      <img src="images/swirl-copy.png" alt="" class="swirl-copy">
+      <img src="images/logo-small.svg" alt="" class="logo-nav small-screen">
+      <img src="images/logo.svg" alt="" class="logo-nav large-screen">
+
+      <nav class="main-nav">
+        <input type="checkbox" class="nav-check" id="nav-check">
+        <label class="nav-label" for="nav-check">
+          <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
+          <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
+        </label>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="chocolates.html">Chocolates</a></li>
+          <li><a href="boxes.html">Boxes</a></li>
+          <li class="current"><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav class="main-nav">
-      <input type="checkbox" class="nav-check" id="nav-check">
-      <label class="nav-label" for="nav-check">
-        <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
-        <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
-      </label>
-      <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="chocolates.html">Chocolates</a></li>
-        <li><a href="boxes.html">Boxes</a></li>
-        <li class="current"><a href="about.html">About Us</a></li>
-      </ul>
-    </nav>
   </header>
 
   <main>
+    <div>
       <h2 class="choco-title">About Us</h2>
       <img class="choco-about" src="images/chocolate-about.jpg">
       <p class="choc-para">Founded in 1985, This little store has grown to a popular spot for all one's choclate needs, still keeping the traditional standards of the original store.</p>
@@ -38,6 +39,8 @@
         <div class="blah-blah bored">
           <img src="images/swirl.png" alt="" class="blah">
         </div>
+      </div>
+      <div class="style">
         <h4 class="blah">Coco's Recipe for Deliciousness</h4>
         <h5>Our Chocolates</h5>
         <p>Our chocolates are made with cocoa beans imported from Brazil and are 100% natural. They are mixed with creamy milk and all natural ingredients to make a delicious taste that will melt away in your mouth. We take pride in our traditional recipe and hope you do to.</p>
@@ -45,22 +48,28 @@
           <img src="images/swirl.png" alt="" class="blah">
         </div>
       </div>
-      <div class="boxes-holiday-options">
+      <div class="style">
         <h4 class="blah">Come Visit Coco's</h4>
-        <h5>Our Location</h5>
-        <div class="choco-option-img">
-          <img src="images/street-map.jpg" class="choco-img">
-        </div>
-        <div class="float-right">
-          <p>blahhh</p>
-          <p>blahhhhhhh</p>
-          <p>blahhh</p>
+        <h5>Our Information</h5>
+        <div class="size-60-span">
+          <div>
+            <div class="choco-option-img about-map">
+              <img src="images/street-map.jpg" alt="" class="choco-img">
+            </div>
+            <div class="float-right about-float">
+              <div class="padding">
+                <p>Store Location: 333 Three Avenue Kanata</p>
+                <p>Phone: 613-3#3-3#3#</p>
+                <p> Email: cocoschocolate@gmail.com</p></p>
+              </div>
+              <div class="blah-blah">
+                <img src="images/swirl.png" alt="" class="blah">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="blah-blah">
-        <img src="images/swirl.png" alt="" class="blah">
-      </div>
-  </main>
+    </main>
 
     <footer>
       <div class="footer-par">
